@@ -1,0 +1,29 @@
+{
+  "name": "victor-xiong.github.io",
+  "version": "0.0.0",
+  "homepage": "https://victor-xiong.github.io/",
+  "authors": [
+    "vxiong <victor.xiong24@gmail.com>"
+  ],
+  "description": "Victor Xiong's Home Page",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "vxiong",
+    "morningbear"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.5.0",
+    "angular-route": "~1.5.0"
+  }
+}
