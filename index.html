@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="victorHome">
 <head>
     <title>Victor Xiong's Home</title>
 
     <!-- Contains basic bootstrap style -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- Contains themes (animation) for buttons, menu, navbar -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
     <!-- Contains font awesome css -->
-    <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/bower_components/components-font-awesome/css/font-awesome.min.css">
     <!-- Contains customized css -->
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
@@ -40,13 +40,14 @@
         </div>
     </nav>
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
         $(".navbar-left a").on("click", function(){
             $(".navbar-left").find(".active").removeClass("active");
             $(this).parent().addClass("active");
         });
     </script>
+    <script src="assets/bower_components/angular/angular.min.js"></script>
 </body>
 </html>
