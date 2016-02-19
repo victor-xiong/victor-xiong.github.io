@@ -11,7 +11,7 @@
                 height = 480;
 
             var projection,
-                data = "../data/",
+                data = "/assets/data/",
                 cityData = "_cities.csv",
                 nation;
 
