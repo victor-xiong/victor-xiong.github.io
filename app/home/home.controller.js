@@ -49,7 +49,7 @@
             d3.json(data, function(error, country) {
                 var states = (nation === "us") ? country.objects.states : country.objects.provinces;
                 g.selectAll("path")
-                 .data(topojson.object(country, states).geometries)
+                 .data(topojson.feature(country, states).features)
                  .enter()
                  .append("path")
                  .attr("d", path);
