@@ -1,3 +1,3 @@
 (function () {
-    angular.module('victorHome', ['ngRoute']);
+    angular.module('victorHome', ['ngRoute', 'home']);
 })();

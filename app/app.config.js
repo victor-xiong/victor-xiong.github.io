@@ -12,7 +12,7 @@
                 templateUrl: 'app/about-me/about-me.html'
             })
             .otherwise({
-                redirectTo: 'index.html'
+                redirectTo: 'app/home/home.html'
             });
     }
 })();
