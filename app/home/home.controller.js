@@ -66,7 +66,7 @@
                         return projection([d.lon, d.lat])[1];
                      })
                      .attr("r", 3.5)
-                     .style("fill", "#f6be00")
+                     .style("fill", "#ffd505")
                      .on("mouseover", function(d) {
                         div.transition()
                            .duration(200)
