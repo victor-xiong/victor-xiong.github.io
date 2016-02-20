@@ -15,7 +15,7 @@
                 templateUrl: 'app/china-map/china-map.html'
             })
             .otherwise({
-                redirectTo: 'app/home/home.html'
+                redirectTo: '/home'
             });
     }
 })();
